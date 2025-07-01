@@ -1,5 +1,6 @@
 ## 处理目标文件夹下大量txt文本中的ai提示词
-`import os
+```
+import os
 import re
 from glob import glob
 
@@ -109,4 +110,6 @@ if __name__ == '__main__':
     output_directory = os.path.join(input_directory, 'cleaned')
     
     process_files(input_directory, output_directory)
-    print('处理完成！清理后的文件保存在:', output_directory)`
+    print('处理完成！清理后的文件保存在:', output_directory)
+
+```
