@@ -1,4 +1,4 @@
-## 处理目标文件夹下大量txt文本中的ai提示词
+## 处理目标文件夹下大量txt文本中的ai痕迹词
 ```
 import os
 import re
